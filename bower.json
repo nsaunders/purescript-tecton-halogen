@@ -1,0 +1,25 @@
+{
+    "name": "purescript-tecton-halogen",
+    "license": [
+        "MIT"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nsaunders/purescript-tecton-halogen"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "purescript-halogen": "^v7.0.0",
+        "purescript-media-types": "^v6.0.0",
+        "purescript-prelude": "^v6.0.1",
+        "purescript-record": "^v4.0.0",
+        "purescript-tecton": "https://github.com/nsaunders/purescript-tecton.git#v0.1.0",
+        "purescript-transformers": "^v6.0.0",
+        "purescript-typelevel-prelude": "^v7.0.0"
+    }
+}
