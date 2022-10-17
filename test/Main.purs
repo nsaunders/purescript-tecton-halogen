@@ -49,7 +49,7 @@ main =
           in
             render identity el
               `shouldEqual`
-              """<style type="text&#x2F;css">
+              """<style>
 header {
   height: 64px;
   width: 100%;

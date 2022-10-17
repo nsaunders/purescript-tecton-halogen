@@ -2,9 +2,8 @@ module Tecton.Halogen (style, styleSheet) where
 
 import Prelude
 import Control.Monad.Writer (Writer)
-import Data.MediaType (MediaType(..))
 import Halogen.HTML.Core as HC
-import Halogen.HTML.Elements (style) as HE
+import Halogen.HTML.Elements as HE
 import Halogen.HTML.Properties as HP
 import Record.Builder (Builder)
 import Type.RowList (class RowToList)
@@ -35,7 +34,7 @@ styleSheet
    . Writer (Array Statement) Unit
   -> HC.HTML p i
 styleSheet =
-  HE.style [ HP.type_ $ MediaType "text/css" ]
+  HE.style_
     <<< pure
     <<< HC.text
     <<< (\s -> "\n" <> s <> "\n")

@@ -3,7 +3,6 @@
 , repository = "https://github.com/nsaunders/purescript-tecton-halogen"
 , dependencies =
   [ "halogen"
-  , "media-types"
   , "prelude"
   , "record"
   , "tecton"
