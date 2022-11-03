@@ -12,6 +12,11 @@ Bugfixes:
 
 Other improvements:
 
+## [0.1.1] - 2022-11-03
+
+Other improvements:
+- Update to Tecton v0.1.1
+
 ## [0.1.0] - 2022-10-17
 
 Initial release

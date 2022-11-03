@@ -34,7 +34,7 @@ main =
           in
             render identity el
               `shouldEqual`
-              "<div style=\"display: inline-block; height: 32px; padding: 8px; width: 128px\"></div>"
+              "<div style=\"display: inline-block; padding: 8px; width: 128px; height: 32px\"></div>"
       describe "styleSheet" $
         it "renders a style sheet as a style element" $
           let
@@ -51,8 +51,8 @@ main =
               `shouldEqual`
               """<style>
 header {
-  height: 64px;
   width: 100%;
+  height: 64px;
 }
 @media all and (min-width: 1280px) {
   header {
