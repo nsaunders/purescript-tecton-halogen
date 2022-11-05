@@ -5,21 +5,8 @@ let upstream =
 in  upstream
   with tecton =
     { dependencies =
-        [ "arrays"
-        , "colors"
-        , "either"
-        , "foldable-traversable"
-        , "integers"
-        , "lists"
-        , "numbers"
-        , "prelude"
-        , "record"
-        , "strings"
-        , "transformers"
-        , "tuples"
-        ]
-    , repo =
-        "https://github.com/nsaunders/purescript-tecton.git"
-    , version =
-        "v0.1.1"
+        ( https://raw.githubusercontent.com/nsaunders/purescript-tecton/master/spago.dhall
+        ).dependencies
+    , repo = "https://github.com/nsaunders/purescript-tecton.git"
+    , version = "master"
     }
