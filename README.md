@@ -28,11 +28,10 @@ in  upstream
   with tecton-halogen =
     { dependencies =
         [ "halogen"
+        , "lists"
         , "prelude"
-        , "record"
         , "tecton"
         , "transformers"
-        , "typelevel-prelude"
         ]
     , repo =
         "https://github.com/nsaunders/purescript-tecton-halogen.git"
