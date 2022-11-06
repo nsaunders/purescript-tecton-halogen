@@ -32,8 +32,19 @@ jobs:
             .spago
             output
 
+      - name: Unlock tecton dependency
+        run: echo $(cat packages.dhall | node -e "process.stdout.write(require('fs').readFileSync(0, 'utf-8').replace(/(https\:\/\/raw\.githubusercontent\.com\/nsaunders\/purescript\-tecton\/master\/spago\.dhall)\s+sha256\:[a-z0-9]+/m, (_, x) => x))") > packages.dhall
+
       - name: Install dependencies
         run: spago install
+
+      - name: Commit packages.dhall
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: packages.dhall
+          author_name: GitHub Actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: Update tecton spago.dhall hash.
 
       - name: Build source
         run: spago build --no-install --purs-args '--censor-lib --strict'
