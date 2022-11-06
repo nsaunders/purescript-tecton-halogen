@@ -12,6 +12,12 @@ Bugfixes:
 
 Other improvements:
 
+## [0.1.2] - 2022-11-06
+
+Other improvements:
+- Update to Tecton v0.1.2
+- Using the new `CSS` type alias for the `styleSheet` function type annotation
+
 ## [0.1.1] - 2022-11-03
 
 Other improvements:

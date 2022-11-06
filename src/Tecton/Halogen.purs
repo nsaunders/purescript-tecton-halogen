@@ -1,12 +1,14 @@
 module Tecton.Halogen (style, styleSheet) where
 
 import Prelude
+
 import Control.Monad.Writer (Writer)
 import Data.List (List)
 import Halogen.HTML.Core as HC
 import Halogen.HTML.Elements as HE
 import Halogen.HTML.Properties as HP
-import Tecton.Internal (Declaration', Statement, pretty, renderInline, renderSheet)
+import Tecton (CSS)
+import Tecton.Internal (Declaration', pretty, renderInline, renderSheet)
 
 -- | Renders declarations as an inline style, e.g.
 -- | ```purescript
@@ -25,7 +27,7 @@ style = HP.attr (HC.AttrName "style") <<< renderInline
 
 -- | Creates a `style` element with the specified style sheet rendered as its
 -- | text content.
-styleSheet :: forall p i. Writer (Array Statement) Unit -> HC.HTML p i
+styleSheet :: forall p i. CSS -> HC.HTML p i
 styleSheet =
   HE.style_
     <<< pure

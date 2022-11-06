@@ -16,9 +16,8 @@
     "dependencies": {
         "purescript-halogen": "^v7.0.0",
         "purescript-lists": "^v7.0.0",
-        "purescript-media-types": "^v6.0.0",
         "purescript-prelude": "^v6.0.1",
-        "purescript-tecton": "https://github.com/nsaunders/purescript-tecton.git#v0.1.1",
+        "purescript-tecton": "https://github.com/nsaunders/purescript-tecton.git#v0.1.2",
         "purescript-transformers": "^v6.0.0"
     }
 }
