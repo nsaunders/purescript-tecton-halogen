@@ -4,11 +4,12 @@ import Prelude
 
 import Effect (Effect)
 import Effect.Aff (launchAff_)
+import Halogen (ClassName(..))
 import Halogen.HTML as HH
 import Halogen.VDom.DOM.StringRenderer (render)
 import Tecton (all, display, height, inlineBlock, media, padding, pct, px, width, (:=), (?))
 import Tecton as T
-import Tecton.Halogen (style, styleSheet)
+import Tecton.Halogen (style, styleSheet, (&.))
 import Tecton.Rule as Rule
 import Test.Spec (describe, it)
 import Test.Spec.Assertions (shouldEqual)
@@ -40,7 +41,7 @@ main =
           let
             HH.HTML el =
               styleSheet do
-                T.header ? Rule.do
+                T.header &. ClassName "masthead" ? Rule.do
                   width := pct 100
                   height := px 64
                 media all { minWidth: px 1280 } ?
@@ -50,7 +51,7 @@ main =
             render identity el
               `shouldEqual`
               """<style>
-header {
+header.masthead {
   width: 100%;
   height: 64px;
 }
