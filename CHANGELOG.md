@@ -7,12 +7,15 @@ Notable changes are documented in this file. The format is based on [Keep a Chan
 Breaking changes:
 
 New features:
-- A specialized version of the `&.` operator has been added for use with
-  Halogen's `ClassName` type.
 
 Bugfixes:
 
 Other improvements:
+
+## [0.1.3] - 2022-12-02
+
+New features:
+- Specialized version of the `&.` operator for use with Halogen `ClassName` type
 
 ## [0.1.2] - 2022-11-06
 
