@@ -3,10 +3,24 @@ name: CI
 on:
   push:
     branches: [master]
-    paths-ignore: ['**.md']
+    paths:
+      - 'src/**/*.purs'
+      - 'src/**/*.js'
+      - 'test/**/*.purs'
+      - 'test/**/*.js'
+      - '*.json'
+      - '*.dhall'
+      - '.github/workflows/ci.yml'
   pull_request:
     branches: [master]
-    paths-ignore: ['**.md']
+    paths:
+      - 'src/**/*.purs'
+      - 'src/**/*.js'
+      - 'test/**/*.purs'
+      - 'test/**/*.js'
+      - '*.json'
+      - '*.dhall'
+      - '.github/workflows/ci.yml'
   repository_dispatch:
 
 jobs:
