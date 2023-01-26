@@ -426,6 +426,47 @@
     "views": null,
     "timestamp": "2023-01-22T00:00:00Z",
     "clones": {
+      "uniques": 2,
+      "count": 4
+    }
+  },
+  {
+    "views": {
+      "uniques": 2,
+      "count": 9
+    },
+    "timestamp": "2023-01-23T00:00:00Z",
+    "clones": {
+      "uniques": 3,
+      "count": 3
+    }
+  },
+  {
+    "views": null,
+    "timestamp": "2023-01-24T00:00:00Z",
+    "clones": {
+      "uniques": 3,
+      "count": 4
+    }
+  },
+  {
+    "views": {
+      "uniques": 1,
+      "count": 6
+    },
+    "timestamp": "2023-01-25T00:00:00Z",
+    "clones": {
+      "uniques": 1,
+      "count": 1
+    }
+  },
+  {
+    "views": {
+      "uniques": 1,
+      "count": 5
+    },
+    "timestamp": "2023-01-26T00:00:00Z",
+    "clones": {
       "uniques": 1,
       "count": 1
     }
