@@ -463,12 +463,28 @@
   {
     "views": {
       "uniques": 1,
-      "count": 5
+      "count": 6
     },
     "timestamp": "2023-01-26T00:00:00Z",
     "clones": {
+      "uniques": 8,
+      "count": 23
+    }
+  },
+  {
+    "views": null,
+    "timestamp": "2023-01-28T00:00:00Z",
+    "clones": {
       "uniques": 1,
       "count": 1
+    }
+  },
+  {
+    "views": null,
+    "timestamp": "2023-01-29T00:00:00Z",
+    "clones": {
+      "uniques": 1,
+      "count": 5
     }
   }
 ]
