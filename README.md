@@ -19,27 +19,6 @@ The preferred installation method is [Spago](https://github.com/purescript/spago
 spago install tecton-halogen
 ```
 
-If your project's package set doesn't include `tecton-halogen`, then add it in
-your `packages.dhall` file first. For example:
-
-```dhall
-let upstream = https://raw.githubusercontent.com/purescript/package-sets/psc-0.15.4-20221010/src/packages.dhall
-in  upstream
-  with tecton-halogen =
-    { dependencies =
-        [ "halogen"
-        , "lists"
-        , "prelude"
-        , "tecton"
-        , "transformers"
-        ]
-    , repo =
-        "https://github.com/nsaunders/purescript-tecton-halogen.git"
-    , version =
-        "master"
-    }
-```
-
 ## Related
 * [purescript-tecton](https://github.com/nsaunders/purescript-tecton)
 * [purescript-tecton-halogen-starter](https://github.com/nsaunders/purescript-tecton-halogen-starter)
