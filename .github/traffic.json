@@ -1108,6 +1108,33 @@
     "views": null,
     "timestamp": "2023-04-30T00:00:00Z",
     "clones": {
+      "uniques": 5,
+      "count": 7
+    }
+  },
+  {
+    "views": null,
+    "timestamp": "2023-05-01T00:00:00Z",
+    "clones": {
+      "uniques": 1,
+      "count": 1
+    }
+  },
+  {
+    "views": {
+      "uniques": 1,
+      "count": 1
+    },
+    "timestamp": "2023-05-02T00:00:00Z",
+    "clones": {
+      "uniques": 1,
+      "count": 4
+    }
+  },
+  {
+    "views": null,
+    "timestamp": "2023-05-05T00:00:00Z",
+    "clones": {
       "uniques": 1,
       "count": 1
     }
