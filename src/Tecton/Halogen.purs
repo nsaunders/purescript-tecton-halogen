@@ -1,3 +1,3 @@
 module Tecton.Halogen (module X) where
 
-import Tecton.Halogen.Internal (style, styleSheet, (&.)) as X
+import Tecton.Halogen.Internal (style, styleSheet) as X

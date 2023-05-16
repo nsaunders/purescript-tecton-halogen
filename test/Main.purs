@@ -7,9 +7,9 @@ import Effect.Aff (launchAff_)
 import Halogen (ClassName(..))
 import Halogen.HTML as HH
 import Halogen.VDom.DOM.StringRenderer (render)
-import Tecton (all, display, height, inlineBlock, media, padding, pct, px, width, (:=), (?))
+import Tecton (all, display, height, inlineBlock, media, padding, pct, px, width, (&.), (:=), (?))
 import Tecton as T
-import Tecton.Halogen (style, styleSheet, (&.))
+import Tecton.Halogen (style, styleSheet)
 import Tecton.Rule as Rule
 import Test.Spec (describe, it)
 import Test.Spec.Assertions (shouldEqual)
