@@ -5,13 +5,17 @@ Notable changes are documented in this file. The format is based on [Keep a Chan
 ## [Unreleased]
 
 Breaking changes:
-- Dropped the `&.` operator. Import it from the `Tecton` module instead. nsaunders/purescript-tecton-halogen#3
 
 New features:
 
 Bugfixes:
 
 Other improvements:
+
+## [0.2.0] - 2023-05-16
+
+Breaking changes:
+- Dropped the `&.` operator. Import it from the `Tecton` module instead. nsaunders/purescript-tecton-halogen#3
 
 ## [0.1.3] - 2022-12-02
 
