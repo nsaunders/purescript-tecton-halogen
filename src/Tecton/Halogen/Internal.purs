@@ -1,28 +1,14 @@
-module Tecton.Halogen.Internal ((&.), byClass, style, styleSheet) where
+module Tecton.Halogen.Internal (style, styleSheet) where
 
 import Prelude
 
 import Control.Monad.Writer (Writer)
 import Data.List (List)
-import Halogen (ClassName(..))
 import Halogen.HTML.Core as HC
 import Halogen.HTML.Elements as HE
 import Halogen.HTML.Properties as HP
 import Tecton (CSS)
-import Tecton.Internal (class IsExtensibleSelector, class ToVal, Declaration', Extensible, Selector, pretty, renderInline, renderSheet)
-import Tecton.Internal as T
-
--- | Appends a class name to the end of a selector.
-byClass
-  :: forall selector
-   . IsExtensibleSelector selector
-  => ToVal selector
-  => selector
-  -> ClassName
-  -> Selector Extensible
-byClass s (ClassName c) = T.byClass s c
-
-infixl 7 byClass as &.
+import Tecton.Internal (Declaration', pretty, renderInline, renderSheet)
 
 -- | Renders declarations as an inline style, e.g.
 -- | ```purescript
