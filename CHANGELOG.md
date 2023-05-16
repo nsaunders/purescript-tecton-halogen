@@ -5,6 +5,7 @@ Notable changes are documented in this file. The format is based on [Keep a Chan
 ## [Unreleased]
 
 Breaking changes:
+- Dropped the `&.` operator. Import it from the `Tecton` module instead. nsaunders/purescript-tecton-halogen#3
 
 New features:
 
