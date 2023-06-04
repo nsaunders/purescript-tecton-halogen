@@ -1299,6 +1299,52 @@
     "views": null,
     "timestamp": "2023-05-28T00:00:00Z",
     "clones": {
+      "uniques": 6,
+      "count": 8
+    }
+  },
+  {
+    "views": {
+      "uniques": 1,
+      "count": 2
+    },
+    "timestamp": "2023-05-29T00:00:00Z",
+    "clones": {
+      "uniques": 2,
+      "count": 2
+    }
+  },
+  {
+    "views": null,
+    "timestamp": "2023-05-30T00:00:00Z",
+    "clones": {
+      "uniques": 2,
+      "count": 2
+    }
+  },
+  {
+    "views": null,
+    "timestamp": "2023-05-31T00:00:00Z",
+    "clones": {
+      "uniques": 5,
+      "count": 5
+    }
+  },
+  {
+    "views": null,
+    "timestamp": "2023-06-01T00:00:00Z",
+    "clones": {
+      "uniques": 5,
+      "count": 6
+    }
+  },
+  {
+    "views": {
+      "uniques": 1,
+      "count": 23
+    },
+    "timestamp": "2023-06-04T00:00:00Z",
+    "clones": {
       "uniques": 1,
       "count": 1
     }
