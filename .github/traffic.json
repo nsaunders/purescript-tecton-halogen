@@ -1958,8 +1958,24 @@
     "views": null,
     "timestamp": "2023-09-17T00:00:00Z",
     "clones": {
+      "uniques": 6,
+      "count": 7
+    }
+  },
+  {
+    "views": null,
+    "timestamp": "2023-09-18T00:00:00Z",
+    "clones": {
+      "uniques": 3,
+      "count": 3
+    }
+  },
+  {
+    "views": null,
+    "timestamp": "2023-09-19T00:00:00Z",
+    "clones": {
       "uniques": 2,
-      "count": 2
+      "count": 3
     }
   }
 ]
